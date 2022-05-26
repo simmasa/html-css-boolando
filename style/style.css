@@ -26,21 +26,6 @@ body {
     width: 100%;
 }
 
-.heart {
-    position: absolute;
-    top: 20px;
-    right: 0px;
-    background-color: white;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    padding-top: 5px;
-    font-size: 25px;
-}
-.heart:hover {
-    color: red;
-} 
-
 .imgCont {
     position: relative;
 }
@@ -81,11 +66,25 @@ body {
     color: white;
     background-color: #EB0037;
     text-align: center;
-    padding: 4px 3px;
+    padding: 5px;
 }
 .extra {
     color: white;
     background-color: #1C926B;
     text-align: center;
-    padding: 4px 3px;
+    padding: 5px;
 }
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+}
+.heart:hover {
+    color: red;
+} 
